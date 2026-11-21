@@ -1,5 +1,6 @@
 cff-version: 1.2.0
-title: "DGS-Bench: Measuring the Deployment Gap in African Agricultural AI Requires Balanced Metrics -- A Cassava Case Study"
+title: "DGS-Bench: Measuring the Deployment Gap in African Agricultural AI Requires Balanced Metrics: A Cassava Case Study"
+message: "If you use this benchmark or evaluation protocol, please cite our work."
 type: software
 authors:
   - family-names: Nyalala
@@ -7,10 +8,9 @@ authors:
     orcid: "https://orcid.org/0000-0002-7969-437X"
   - family-names: Gudla
     given-names: Surabhi
-  - family-names: Vincent
-    given-names: Patrick
+  - family-names: Ndowo
+    given-names: Patrick Vincent
 repository-code: "https://github.com/saaillab/dgs-bench"
 url: "https://saaillab.github.io/dgs-bench/"
-doi: "10.13140/rg.2.2.12603.17448"
 license: MIT
 year: 2026
