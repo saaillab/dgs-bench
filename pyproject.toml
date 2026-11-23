@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dgs-bench"
+version = "1.1.0"
+description = "Metric-aware Deployment Gap Score (DGS) evaluation protocol, calibration tools, and deterministic splits for imbalanced agricultural AI."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "CC-BY-NC-4.0" }
+authors = [
+  { name = "Innocent Nyalala", email = "innocent@iitmz.ac.in" },
+  { name = "Surabhi Gudla" },
+  { name = "Patrick Vincent Ndowo" },
+]
+dependencies = [
+  "numpy>=1.24",
+  "scipy>=1.10",
+  "scikit-learn>=1.3",
+  "pandas>=2.0",
+]
+
+[project.optional-dependencies]
+vision = ["torch>=2.1", "torchvision>=0.16", "timm>=0.9", "opencv-python>=4.8", "matplotlib>=3.7", "Pillow>=10.0"]
+dev = ["pytest>=7.4"]
+
+[project.scripts]
+dgs-bench = "dgs_bench.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["dgs_bench*"]

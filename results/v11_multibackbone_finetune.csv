@@ -1,0 +1,13 @@
+arch,mode,lab_acc,field_acc,dgs_acc,lab_f1,field_f1,dgs_f1,dgs_auprc,field_ece,mirage
+ResNet-50,linear_probe,52.75,62.49,-9.74,52.36,48.3,4.06,5.19,0.248,True
+ResNet-50,last_block,63.75,71.7,-7.95,63.62,58.14,5.49,7.73,0.1483,True
+ResNet-50,full,64.0,73.92,-9.92,63.98,60.61,3.37,4.68,0.1418,True
+EfficientNet-B3,linear_probe,55.75,61.46,-5.71,55.53,46.5,9.03,12.68,0.2636,True
+EfficientNet-B3,last_block,50.0,55.68,-5.68,50.14,42.28,7.86,7.3,0.2036,True
+EfficientNet-B3,full,51.75,57.41,-5.66,51.78,44.26,7.52,8.89,0.2113,True
+MobileNetV3-S,linear_probe,53.25,56.35,-3.1,53.31,43.7,9.61,12.48,0.3185,True
+MobileNetV3-S,last_block,58.0,63.61,-5.61,57.84,50.02,7.82,10.12,0.0862,True
+MobileNetV3-S,full,60.0,66.4,-6.4,59.98,53.26,6.72,11.3,0.1536,True
+ViT-S/16,linear_probe,52.25,63.84,-11.59,52.42,49.57,2.85,7.23,0.2576,True
+ViT-S/16,last_block,66.5,73.01,-6.51,66.33,59.61,6.72,5.84,0.1237,True
+ViT-S/16,full,70.0,79.0,-9.0,70.02,65.69,4.33,6.24,0.1208,True

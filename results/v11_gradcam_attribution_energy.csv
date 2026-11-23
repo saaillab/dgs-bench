@@ -1,0 +1,10 @@
+arch,condition,n,acc_pct,cmd_pred_rate_pct,fg_attribution_energy_pct,border_attribution_energy_pct,mean_fg_area_pct,border_area_pct
+ResNet-50,Original,200,56.5,17.5,36.84,56.29,30.59,63.14
+ResNet-50,GrabCut,200,43.5,14.0,42.91,49.96,30.59,63.14
+ResNet-50,Border-only,200,24.0,2.0,37.64,53.11,30.59,63.14
+EfficientNet-B3,Original,200,53.5,16.5,36.4,56.34,30.59,63.14
+EfficientNet-B3,GrabCut,200,37.0,12.5,37.15,56.01,30.59,63.14
+EfficientNet-B3,Border-only,200,40.0,16.5,29.61,66.0,30.59,63.14
+ViT-S/16,Original,200,57.0,17.0,30.39,63.78,30.59,63.14
+ViT-S/16,GrabCut,200,32.0,1.0,31.8,63.42,30.59,63.14
+ViT-S/16,Border-only,200,40.5,5.5,28.37,65.8,30.59,63.14

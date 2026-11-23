@@ -1,0 +1,3 @@
+arch,n,acc_orig,acc_grabcut,delta,agreement,upper_delta,lower_delta,upper_lower_ratio
+ResNet-50,1000,62.0,41.8,20.200000000000003,49.0,10.805576,11.146577,0.9694076
+ViT-S/16,1000,63.5,28.999999999999996,34.5,36.6,29.540304,28.391798,1.040452

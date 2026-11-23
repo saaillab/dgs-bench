@@ -1,0 +1,31 @@
+{
+  "canonical_seed": 42,
+  "dominant_class": "CMD",
+  "dominant_class_index": 3,
+  "target_prevalences": [
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.658
+  ],
+  "rng_seed_subsampling": 141,
+  "formula": "p* = (Acc_L - r_bar_minus1) / (r_1 - r_bar_minus1)",
+  "architecture_thresholds_observed_pct": {
+    "MobileNetV3-S": 20.0,
+    "EfficientNet-B3": 30.0,
+    "ResNet-50": 45.0,
+    "ViT-Small/16": 50.0
+  },
+  "architecture_p_star_theoretical_pct": {
+    "ResNet-50": -0.96,
+    "EfficientNet-B3": 25.94,
+    "MobileNetV3-S": 13.94,
+    "ViT-S/16": -3.71
+  }
+}
